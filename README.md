@@ -27,3 +27,8 @@ A closer look at the main community:
 
 Where Ned Stark is detected as the central character.
 
+As another example, here is the result for Romeo and Juliet, with partition resolution set to 1, and filter threshold set to 5.
+
+<img src="https://github.com/scottgilmartin/Auto_Network/blob/master/images/3.png" alt="alt text" width="60%" height="50%">
+
+Where Romeo is detected as the central character.
