@@ -8,8 +8,8 @@ The script is then analysed to find every time two character names appear within
 The network is then built and analysed using the networkx library.
 
 # Caveats
-The script has to be formatted so that every character line is preceeded by 'CHARACTER NAME:'
-
+The script has to be formatted so that every character line is preceeded by 'CHARACTER NAME:', so this is only appropriate for 
+screenplays/ tv scripts/ plays, and not for example a novel.
 # Output
 The code outputs the network where each node represents a character, and are coloured according to which community the character belongs to. Edge weight and color between a character represent how often the character names appear close to one another in the script.
 
