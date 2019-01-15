@@ -65,18 +65,18 @@ def build_char_matrix(chars):
                             mat[n,m]+=1 #add one to the matrix position corresponding to (character n, character m)
     return mat
 
-def filter(mat,chars):
+def filter(mat,chars,filter_threshold):
     """
     Filter out the false positives; i.e. the characters that connect less than a specified threshold number of times.
     """
     for n in range(len(chars)):
         for m in range(len(chars)):
-            if mat[n,m]<2:
+            if mat[n,m]<filter_threshold:
                 mat[n,m]=0
     return mat
 
 chars = detect_chars()
-mat = filter(build_char_matrix(chars),chars)
+mat = filter(build_char_matrix(chars),chars,2)
             
 A=mat/15 #make the network more readable
 G=nx.from_numpy_matrix(A,parallel_edges=False)
