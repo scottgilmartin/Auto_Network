@@ -16,7 +16,7 @@ from string import punctuation
 def strip_punctuation(s):
     return ''.join(c for c in s if c not in punctuation)  
 
-with open('script.txt') as myfile:
+with open('script.txt') as myfile: #add your script file here
     
  w0 = myfile.read().split() 
  w=[]
@@ -52,7 +52,7 @@ def build_char_matrix(chars):
     
     for n in range(len(chars)): #for the nth character in the char list...
         
-        for i in range(len(w)):    #for the ith string in the script...
+        for i in range(16,len(w)-16): #for the ith string in the script... starting at the 16th word to avoid out of range
                          
             if chars[n].lower().capitalize()==w[i] or chars[n]==w[i]:  #if the current character is found in the string list as the ith string...
             
