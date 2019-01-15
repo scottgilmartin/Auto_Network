@@ -19,6 +19,8 @@ The output of the code:
 
 <img src="https://github.com/scottgilmartin/Auto_Network/blob/master/images/1.png" alt="alt text" width="60%" height="50%">
 
+We see several communites, including the completely isolated community involving Daenerys etc. who are geographically separated from the rest of the characters throughout the episode.
+
 A closer look at the main community:
 
 <img src="https://github.com/scottgilmartin/Auto_Network/blob/master/images/2.png" alt="alt text" width="60%" height="50%">
