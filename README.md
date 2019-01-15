@@ -17,9 +17,9 @@ This example is for season 1 episode 1 of game of thrones, you can find the scri
 
 The output of the code:
 
-<img src="https://github.com/scottgilmartin/Auto_Network/blob/master/images/1.png" alt="alt text" width="60%" height="60%">
+<img src="https://github.com/scottgilmartin/Auto_Network/blob/master/images/1.png" alt="alt text" width="60%" height="50%">
 
 A closer look at the main community:
 
-<img src="https://github.com/scottgilmartin/Auto_Network/blob/master/images/2.png" alt="alt text" width="60%" height="60%">
+<img src="https://github.com/scottgilmartin/Auto_Network/blob/master/images/2.png" alt="alt text" width="60%" height="50%">
 
