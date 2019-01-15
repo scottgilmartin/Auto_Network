@@ -1,5 +1,5 @@
 # What is this?
-A simple code that attempts to automatically generate a character network from a given movie or tv script.
+A simple code that attempts to automatically generate a character network from a given movie or tv script using the networkx library.
 
 # How does it work?
 Character names are obtained from the script using the fact that standard scripts follow the convention of preceeding each character line with 'CHARACTER NAME:' in uppercase.
