@@ -23,3 +23,5 @@ A closer look at the main community:
 
 <img src="https://github.com/scottgilmartin/Auto_Network/blob/master/images/2.png" alt="alt text" width="60%" height="50%">
 
+Where Ned Stark is detected as the central character.
+
